@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(56, 56, 231), rgb(10, 10, 112));    
+}
+.centre{
+    width: 30%;
+    height: 60%;
+    padding: 50px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/man.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.centre h3{
+    text-align: center;
+}
+.centre small{
+    text-align: center;
+}
